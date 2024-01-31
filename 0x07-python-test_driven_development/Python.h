@@ -1,6 +1,7 @@
 #ifndef PYTHON_H
 #define PYTHON_H
 
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -11,8 +12,7 @@
  *
  */
 
-typedef struct PyObject
-{
+typedef struct {
     char *n;
 } PyObject;
 
